@@ -17,7 +17,7 @@ public class MainClass {
         driver.manage().window().maximize();
         driver.get("https://plavnik.by/");
         JavascriptExecutor jse=(JavascriptExecutor)driver;
-        jse.executeScript("window.scrollBy(0, 1000)", "");
+        jse.executeScript("alert('Hello bitch!')");
 
     }
 
